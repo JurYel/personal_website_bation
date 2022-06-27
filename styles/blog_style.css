@@ -601,3 +601,99 @@ html, body {
 .about-me .skill-bar .skills .progress .progress-bar-3 {
     width: 75%;
 }
+
+/* Contact Style */
+
+.container.contact{
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    /* border: 1px solid #111; */
+    background: #fff;
+}
+
+.contact .contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 5rem;
+}
+
+.contact .contact-details .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.contact .contact-details .info i{
+    font-size: 32px;
+    color: #2A4B7C;
+    margin-bottom: 20px;
+}
+
+.contact .contact-details .info h4 {
+    color: #202c45;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.contact .contact-details .info p {
+    color: rgb(106, 104, 104);
+    font-size: 16px;
+}
+
+.contact .contact-me {
+    width: 100%;
+    max-width: 100%;
+} 
+
+.contact .contact-me .contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.contact .contact-me form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.contact .contact-me .contact-form .control-group input,
+.contact .contact-me .contact-form .control-group textarea {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #b4b8bb;
+    outline: 0;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+.contact .contact-me .contact-form .control-group input:focus,
+.contact .contact-me .contact-form .control-group textarea:focus{   
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(53, 114, 204, 0.25);
+}
+
+.contact .contact-me .contact-form button {
+    padding: 8px 10px;
+    outline: 0;
+    border: 1px solid #2a4b7c;
+    font-size:15px;
+    color: #fff;
+    background: #2a4b7c;
+    cursor: pointer;
+}
+
+.contact .contact-me .contact-form button:hover {
+    border: 1px solid #273553;
+    background: #273553;
+}
