@@ -343,17 +343,17 @@ html, body {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background-image: url("../img/carousel-1.jpg");
+    background-image: url("https://github.com/BananaKyle10/personal-website-bation/blob/main/img/carousel-1.jpg?raw=true");
     background-size: cover;
 }
 
 .item-2 {
-    background-image: url("../img/carousel-2.jpg");
+    background-image: url("https://github.com/BananaKyle10/personal-website-bation/blob/main/img/carousel-2.jpg?raw=true");
     background-size: cover;
 }
 
 .item-3 {
-    background-image:url("../img/carousel-3.jpg");
+    background-image:url("https://github.com/BananaKyle10/personal-website-bation/blob/main/img/carousel-3.jpg?raw=true");
     background-size: cover;
 }
 
